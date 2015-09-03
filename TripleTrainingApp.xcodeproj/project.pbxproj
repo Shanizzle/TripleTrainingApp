@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9FA91831B97EB7C00126C56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FA91821B97EB7C00126C56 /* main.m */; };
+		C9FA91861B97EB7C00126C56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FA91851B97EB7C00126C56 /* AppDelegate.m */; };
+		C9FA91891B97EB7C00126C56 /* TripleTrainingApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C9FA91871B97EB7C00126C56 /* TripleTrainingApp.xcdatamodeld */; };
+		C9FA918C1B97EB7C00126C56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FA918B1B97EB7C00126C56 /* ViewController.m */; };
+		C9FA918F1B97EB7C00126C56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9FA918D1B97EB7C00126C56 /* Main.storyboard */; };
+		C9FA91911B97EB7C00126C56 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9FA91901B97EB7C00126C56 /* Images.xcassets */; };
+		C9FA91941B97EB7C00126C56 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9FA91921B97EB7C00126C56 /* LaunchScreen.xib */; };
+		C9FA91A01B97EB7C00126C56 /* TripleTrainingAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FA919F1B97EB7C00126C56 /* TripleTrainingAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9FA919A1B97EB7C00126C56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9FA91751B97EB7C00126C56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9FA917C1B97EB7C00126C56;
+			remoteInfo = TripleTrainingApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9FA917D1B97EB7C00126C56 /* TripleTrainingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripleTrainingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9FA91811B97EB7C00126C56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9FA91821B97EB7C00126C56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9FA91841B97EB7C00126C56 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C9FA91851B97EB7C00126C56 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C9FA91881B97EB7C00126C56 /* TripleTrainingApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TripleTrainingApp.xcdatamodel; sourceTree = "<group>"; };
+		C9FA918A1B97EB7C00126C56 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C9FA918B1B97EB7C00126C56 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C9FA918E1B97EB7C00126C56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9FA91901B97EB7C00126C56 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C9FA91931B97EB7C00126C56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C9FA91991B97EB7C00126C56 /* TripleTrainingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripleTrainingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9FA919E1B97EB7C00126C56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9FA919F1B97EB7C00126C56 /* TripleTrainingAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TripleTrainingAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9FA917A1B97EB7C00126C56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9FA91961B97EB7C00126C56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9FA91741B97EB7C00126C56 = {
+			isa = PBXGroup;
+			children = (
+				C9FA917F1B97EB7C00126C56 /* TripleTrainingApp */,
+				C9FA919C1B97EB7C00126C56 /* TripleTrainingAppTests */,
+				C9FA917E1B97EB7C00126C56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9FA917E1B97EB7C00126C56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9FA917D1B97EB7C00126C56 /* TripleTrainingApp.app */,
+				C9FA91991B97EB7C00126C56 /* TripleTrainingAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9FA917F1B97EB7C00126C56 /* TripleTrainingApp */ = {
+			isa = PBXGroup;
+			children = (
+				C9FA91841B97EB7C00126C56 /* AppDelegate.h */,
+				C9FA91851B97EB7C00126C56 /* AppDelegate.m */,
+				C9FA918A1B97EB7C00126C56 /* ViewController.h */,
+				C9FA918B1B97EB7C00126C56 /* ViewController.m */,
+				C9FA918D1B97EB7C00126C56 /* Main.storyboard */,
+				C9FA91901B97EB7C00126C56 /* Images.xcassets */,
+				C9FA91921B97EB7C00126C56 /* LaunchScreen.xib */,
+				C9FA91871B97EB7C00126C56 /* TripleTrainingApp.xcdatamodeld */,
+				C9FA91801B97EB7C00126C56 /* Supporting Files */,
+			);
+			path = TripleTrainingApp;
+			sourceTree = "<group>";
+		};
+		C9FA91801B97EB7C00126C56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9FA91811B97EB7C00126C56 /* Info.plist */,
+				C9FA91821B97EB7C00126C56 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9FA919C1B97EB7C00126C56 /* TripleTrainingAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9FA919F1B97EB7C00126C56 /* TripleTrainingAppTests.m */,
+				C9FA919D1B97EB7C00126C56 /* Supporting Files */,
+			);
+			path = TripleTrainingAppTests;
+			sourceTree = "<group>";
+		};
+		C9FA919D1B97EB7C00126C56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9FA919E1B97EB7C00126C56 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9FA917C1B97EB7C00126C56 /* TripleTrainingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9FA91A31B97EB7C00126C56 /* Build configuration list for PBXNativeTarget "TripleTrainingApp" */;
+			buildPhases = (
+				C9FA91791B97EB7C00126C56 /* Sources */,
+				C9FA917A1B97EB7C00126C56 /* Frameworks */,
+				C9FA917B1B97EB7C00126C56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TripleTrainingApp;
+			productName = TripleTrainingApp;
+			productReference = C9FA917D1B97EB7C00126C56 /* TripleTrainingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9FA91981B97EB7C00126C56 /* TripleTrainingAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9FA91A61B97EB7C00126C56 /* Build configuration list for PBXNativeTarget "TripleTrainingAppTests" */;
+			buildPhases = (
+				C9FA91951B97EB7C00126C56 /* Sources */,
+				C9FA91961B97EB7C00126C56 /* Frameworks */,
+				C9FA91971B97EB7C00126C56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9FA919B1B97EB7C00126C56 /* PBXTargetDependency */,
+			);
+			name = TripleTrainingAppTests;
+			productName = TripleTrainingAppTests;
+			productReference = C9FA91991B97EB7C00126C56 /* TripleTrainingAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9FA91751B97EB7C00126C56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = com.KiloOscar;
+				TargetAttributes = {
+					C9FA917C1B97EB7C00126C56 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					C9FA91981B97EB7C00126C56 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = C9FA917C1B97EB7C00126C56;
+					};
+				};
+			};
+			buildConfigurationList = C9FA91781B97EB7C00126C56 /* Build configuration list for PBXProject "TripleTrainingApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9FA91741B97EB7C00126C56;
+			productRefGroup = C9FA917E1B97EB7C00126C56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9FA917C1B97EB7C00126C56 /* TripleTrainingApp */,
+				C9FA91981B97EB7C00126C56 /* TripleTrainingAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9FA917B1B97EB7C00126C56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9FA918F1B97EB7C00126C56 /* Main.storyboard in Resources */,
+				C9FA91941B97EB7C00126C56 /* LaunchScreen.xib in Resources */,
+				C9FA91911B97EB7C00126C56 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9FA91971B97EB7C00126C56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9FA91791B97EB7C00126C56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9FA91861B97EB7C00126C56 /* AppDelegate.m in Sources */,
+				C9FA91831B97EB7C00126C56 /* main.m in Sources */,
+				C9FA918C1B97EB7C00126C56 /* ViewController.m in Sources */,
+				C9FA91891B97EB7C00126C56 /* TripleTrainingApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9FA91951B97EB7C00126C56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9FA91A01B97EB7C00126C56 /* TripleTrainingAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9FA919B1B97EB7C00126C56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9FA917C1B97EB7C00126C56 /* TripleTrainingApp */;
+			targetProxy = C9FA919A1B97EB7C00126C56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9FA918D1B97EB7C00126C56 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9FA918E1B97EB7C00126C56 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C9FA91921B97EB7C00126C56 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9FA91931B97EB7C00126C56 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9FA91A11B97EB7C00126C56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C9FA91A21B97EB7C00126C56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9FA91A41B97EB7C00126C56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TripleTrainingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C9FA91A51B97EB7C00126C56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TripleTrainingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C9FA91A71B97EB7C00126C56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TripleTrainingAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TripleTrainingApp.app/TripleTrainingApp";
+			};
+			name = Debug;
+		};
+		C9FA91A81B97EB7C00126C56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TripleTrainingAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TripleTrainingApp.app/TripleTrainingApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9FA91781B97EB7C00126C56 /* Build configuration list for PBXProject "TripleTrainingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9FA91A11B97EB7C00126C56 /* Debug */,
+				C9FA91A21B97EB7C00126C56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9FA91A31B97EB7C00126C56 /* Build configuration list for PBXNativeTarget "TripleTrainingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9FA91A41B97EB7C00126C56 /* Debug */,
+				C9FA91A51B97EB7C00126C56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C9FA91A61B97EB7C00126C56 /* Build configuration list for PBXNativeTarget "TripleTrainingAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9FA91A71B97EB7C00126C56 /* Debug */,
+				C9FA91A81B97EB7C00126C56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C9FA91871B97EB7C00126C56 /* TripleTrainingApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C9FA91881B97EB7C00126C56 /* TripleTrainingApp.xcdatamodel */,
+			);
+			currentVersion = C9FA91881B97EB7C00126C56 /* TripleTrainingApp.xcdatamodel */;
+			path = TripleTrainingApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C9FA91751B97EB7C00126C56 /* Project object */;
+}
