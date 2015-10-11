@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C9F5160F1BC96D1A0011AFE5 /* TrainingDaysVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F5160D1BC96D1A0011AFE5 /* TrainingDaysVC.m */; };
+		C9F516101BC96D1A0011AFE5 /* TrainingDaysVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9F5160E1BC96D1A0011AFE5 /* TrainingDaysVC.xib */; };
 		C9FA91831B97EB7C00126C56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FA91821B97EB7C00126C56 /* main.m */; };
 		C9FA91861B97EB7C00126C56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FA91851B97EB7C00126C56 /* AppDelegate.m */; };
 		C9FA91891B97EB7C00126C56 /* TripleTrainingApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C9FA91871B97EB7C00126C56 /* TripleTrainingApp.xcdatamodeld */; };
-		C9FA918C1B97EB7C00126C56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FA918B1B97EB7C00126C56 /* ViewController.m */; };
-		C9FA918F1B97EB7C00126C56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9FA918D1B97EB7C00126C56 /* Main.storyboard */; };
 		C9FA91911B97EB7C00126C56 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9FA91901B97EB7C00126C56 /* Images.xcassets */; };
 		C9FA91941B97EB7C00126C56 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9FA91921B97EB7C00126C56 /* LaunchScreen.xib */; };
 		C9FA91A01B97EB7C00126C56 /* TripleTrainingAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FA919F1B97EB7C00126C56 /* TripleTrainingAppTests.m */; };
+		C9FA91AC1B97ECB900126C56 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FA91AA1B97ECB800126C56 /* HomeVC.m */; };
+		C9FA91AD1B97ECB900126C56 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9FA91AB1B97ECB800126C56 /* HomeVC.xib */; };
+		C9FA91B11BA488A400126C56 /* ExerciseInputVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FA91AF1BA488A400126C56 /* ExerciseInputVC.m */; };
+		C9FA91B21BA488A400126C56 /* ExerciseInputVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9FA91B01BA488A400126C56 /* ExerciseInputVC.xib */; };
+		C9FA91B51BA4CDCC00126C56 /* MOBExerciseDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FA91B41BA4CDCC00126C56 /* MOBExerciseDetails.m */; };
+		C9FA91B81BA5D8BB00126C56 /* DataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FA91B71BA5D8BB00126C56 /* DataProvider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +34,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C9F5160C1BC96D1A0011AFE5 /* TrainingDaysVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainingDaysVC.h; sourceTree = "<group>"; };
+		C9F5160D1BC96D1A0011AFE5 /* TrainingDaysVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainingDaysVC.m; sourceTree = "<group>"; };
+		C9F5160E1BC96D1A0011AFE5 /* TrainingDaysVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrainingDaysVC.xib; sourceTree = "<group>"; };
 		C9FA917D1B97EB7C00126C56 /* TripleTrainingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripleTrainingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9FA91811B97EB7C00126C56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9FA91821B97EB7C00126C56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C9FA91841B97EB7C00126C56 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C9FA91851B97EB7C00126C56 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C9FA91881B97EB7C00126C56 /* TripleTrainingApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TripleTrainingApp.xcdatamodel; sourceTree = "<group>"; };
-		C9FA918A1B97EB7C00126C56 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C9FA918B1B97EB7C00126C56 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C9FA918E1B97EB7C00126C56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C9FA91901B97EB7C00126C56 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C9FA91931B97EB7C00126C56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C9FA91991B97EB7C00126C56 /* TripleTrainingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripleTrainingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9FA919E1B97EB7C00126C56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9FA919F1B97EB7C00126C56 /* TripleTrainingAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TripleTrainingAppTests.m; sourceTree = "<group>"; };
+		C9FA91A91B97ECB800126C56 /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeVC.h; path = ../HomeVC.h; sourceTree = "<group>"; };
+		C9FA91AA1B97ECB800126C56 /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeVC.m; path = ../HomeVC.m; sourceTree = "<group>"; };
+		C9FA91AB1B97ECB800126C56 /* HomeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeVC.xib; path = ../HomeVC.xib; sourceTree = "<group>"; };
+		C9FA91AE1BA488A400126C56 /* ExerciseInputVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseInputVC.h; sourceTree = "<group>"; };
+		C9FA91AF1BA488A400126C56 /* ExerciseInputVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseInputVC.m; sourceTree = "<group>"; };
+		C9FA91B01BA488A400126C56 /* ExerciseInputVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExerciseInputVC.xib; sourceTree = "<group>"; };
+		C9FA91B31BA4CDCC00126C56 /* MOBExerciseDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOBExerciseDetails.h; sourceTree = "<group>"; };
+		C9FA91B41BA4CDCC00126C56 /* MOBExerciseDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOBExerciseDetails.m; sourceTree = "<group>"; };
+		C9FA91B61BA5D8BB00126C56 /* DataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataProvider.h; sourceTree = "<group>"; };
+		C9FA91B71BA5D8BB00126C56 /* DataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataProvider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +101,19 @@
 			children = (
 				C9FA91841B97EB7C00126C56 /* AppDelegate.h */,
 				C9FA91851B97EB7C00126C56 /* AppDelegate.m */,
-				C9FA918A1B97EB7C00126C56 /* ViewController.h */,
-				C9FA918B1B97EB7C00126C56 /* ViewController.m */,
-				C9FA918D1B97EB7C00126C56 /* Main.storyboard */,
+				C9FA91A91B97ECB800126C56 /* HomeVC.h */,
+				C9FA91AA1B97ECB800126C56 /* HomeVC.m */,
+				C9FA91AB1B97ECB800126C56 /* HomeVC.xib */,
+				C9FA91AE1BA488A400126C56 /* ExerciseInputVC.h */,
+				C9FA91AF1BA488A400126C56 /* ExerciseInputVC.m */,
+				C9FA91B01BA488A400126C56 /* ExerciseInputVC.xib */,
+				C9F5160C1BC96D1A0011AFE5 /* TrainingDaysVC.h */,
+				C9F5160D1BC96D1A0011AFE5 /* TrainingDaysVC.m */,
+				C9F5160E1BC96D1A0011AFE5 /* TrainingDaysVC.xib */,
+				C9FA91B31BA4CDCC00126C56 /* MOBExerciseDetails.h */,
+				C9FA91B41BA4CDCC00126C56 /* MOBExerciseDetails.m */,
+				C9FA91B61BA5D8BB00126C56 /* DataProvider.h */,
+				C9FA91B71BA5D8BB00126C56 /* DataProvider.m */,
 				C9FA91901B97EB7C00126C56 /* Images.xcassets */,
 				C9FA91921B97EB7C00126C56 /* LaunchScreen.xib */,
 				C9FA91871B97EB7C00126C56 /* TripleTrainingApp.xcdatamodeld */,
@@ -202,8 +228,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9FA918F1B97EB7C00126C56 /* Main.storyboard in Resources */,
 				C9FA91941B97EB7C00126C56 /* LaunchScreen.xib in Resources */,
+				C9F516101BC96D1A0011AFE5 /* TrainingDaysVC.xib in Resources */,
+				C9FA91B21BA488A400126C56 /* ExerciseInputVC.xib in Resources */,
+				C9FA91AD1B97ECB900126C56 /* HomeVC.xib in Resources */,
 				C9FA91911B97EB7C00126C56 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,10 +250,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9FA91B11BA488A400126C56 /* ExerciseInputVC.m in Sources */,
+				C9F5160F1BC96D1A0011AFE5 /* TrainingDaysVC.m in Sources */,
 				C9FA91861B97EB7C00126C56 /* AppDelegate.m in Sources */,
+				C9FA91AC1B97ECB900126C56 /* HomeVC.m in Sources */,
+				C9FA91B81BA5D8BB00126C56 /* DataProvider.m in Sources */,
 				C9FA91831B97EB7C00126C56 /* main.m in Sources */,
-				C9FA918C1B97EB7C00126C56 /* ViewController.m in Sources */,
 				C9FA91891B97EB7C00126C56 /* TripleTrainingApp.xcdatamodeld in Sources */,
+				C9FA91B51BA4CDCC00126C56 /* MOBExerciseDetails.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,14 +280,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C9FA918D1B97EB7C00126C56 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C9FA918E1B97EB7C00126C56 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C9FA91921B97EB7C00126C56 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -420,6 +444,7 @@
 				C9FA91A51B97EB7C00126C56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9FA91A61B97EB7C00126C56 /* Build configuration list for PBXNativeTarget "TripleTrainingAppTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +453,7 @@
 				C9FA91A81B97EB7C00126C56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

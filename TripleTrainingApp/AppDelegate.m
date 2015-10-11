@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "HomeVC.h"
+#import "ExerciseInputVC.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    [self.window makeKeyAndVisible];
+    
+    HomeVC *homeVC = [[HomeVC alloc] init];
+    
+    //self.window.rootViewController = homeVC;
+    
+    UINavigationController *navController = [[UINavigationController alloc]initWithRootViewController:homeVC];
+    self.window.rootViewController = navController;
+    
     return YES;
 }
 
