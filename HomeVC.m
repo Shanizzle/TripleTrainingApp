@@ -6,7 +6,8 @@
 //  Copyright (c) 2015 com.KiloOscar. All rights reserved.
 //
 
-// an update
+// added by 'KO on 10/11/15
+// I am removing your update
 
 #import "HomeVC.h"
 #import "ExerciseInputVC.h"
